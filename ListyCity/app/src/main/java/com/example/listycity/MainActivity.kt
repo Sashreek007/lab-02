@@ -84,7 +84,7 @@ fun CityListScreen(
                 )
             }
         }
-
+        //Asked claude change how to position the add city button on top of the delete city button
         Button(onClick = {
             if (newCityName.isNotBlank()) {
                 onAddCity(newCityName)
@@ -95,6 +95,7 @@ fun CityListScreen(
             .padding(horizontal = 16.dp, vertical = 4.dp)) {
             Text("Add City")
         }
+        //asked claude chat how to enable and diable a button and also asked it to use .let feature to write the code more functionally
         Button(
             onClick = {
                 selectedCity?.let { onDeleteCity(it) }
@@ -117,6 +118,7 @@ fun CityListScreen(
             fontSize = 28.sp,
             modifier = Modifier
                 .fillMaxWidth()
+                //Asked claude chat if the cityrow could be clickable and asked it how to change the color of background on click
                 .clickable(onClick = onClick)
                 .background(
                     if (isSelected) MaterialTheme.colorScheme.primaryContainer

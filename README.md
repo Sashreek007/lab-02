@@ -4,7 +4,6 @@
 - **CCID:** `1852232`
 
 ## References and Resources
-List any resources used here, or simply put `N/A` if not applicable.
-
+Used claude chat for help on syntax and Jetpack Compose related features.
 ## Verbal Collaboration
 List students' names and CCIDs here, or simply put `N/A` if not applicable. 
